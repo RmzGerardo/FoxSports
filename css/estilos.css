@@ -1,0 +1,882 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Empieza movil */
+
+header{
+    width: 100vw;
+    height: 26vh;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+
+header .ingreso{
+    width: 94%;
+    height: 7vh;
+    margin-left: 3.15vw;
+}
+
+header .ingreso .ingresar{
+    float: left;
+    width: 100%;
+    text-align: end;
+    height: 100%;
+}
+
+header .ingreso .ingresar .dos {
+    width: 100%;
+    height: 100%;
+    padding: 8px 4px;
+    text-align: right;
+}
+
+header .ingreso .ingresar .dos .ingresar1{
+    display: none;
+}
+
+header .ingreso .ingresar .dos .ingresar2{
+    width: 7em;
+    height: 100%;
+}
+
+header .ingreso .ingresar .dos .ingresar2{
+
+    height: 100%;
+    background-color: #007aff;
+    text-align: right;
+    padding: 5px 5px;
+    border-radius: 8%;
+    color: white;
+    font-size: .9em;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .menu{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+header .menu .logo{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 15px 13px 5px 13px;
+}
+
+header .menu .logo ul{
+    display: none;
+}
+
+header .menu .logo img{
+    width: 15vw;
+    height: 80%;
+    position: static;
+}
+
+header .menu .ham{
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: end;
+    padding: 13px 13px 13px 13px;
+    font-size: 1.8em;
+}
+
+header .menu .ham span{
+    right: 1px;
+}
+
+header .menu .ham i{
+    display: none;
+}
+
+header .ligas{
+    margin-top: 2.5px;
+    width: 94%;
+    height: 8vh;
+    margin-left: 3.15vw;
+    background-color: white;
+}
+
+header .ligas .liga{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    float: left;
+}
+
+header .ligas .flecha{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    float: left;
+    text-align: end;
+    padding: 13px 15px;
+    font-size: 1.6em;
+}
+
+header .ligas .liga ul{
+    display: none;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 50px 10px 20px 10px;
+    background-color: #f7f7f7;
+}
+
+section .section1{
+    width: 100%;
+    height: 20vh;
+    padding: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+}
+
+section .section1 .esp1{
+    width: 92%;
+    height: 100%;
+    float: left;
+}
+
+section .section1 .esp1 .partidos{
+    width: 100%;
+    height: 28%;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+section .section1 .esp1 .partidos .nombre{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 6px 5px;
+}
+
+section .section1 .esp1 .partidos .flecha{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding: 7px 8px;
+    font-size: 1.2em;
+}
+
+section .section1 .esp1 .horario{
+    width: 100%;
+    height: 69%;
+    background-color: #f2f2f2;
+}
+
+section .section1 .esp1 .horario .fIzq{
+    width: .8em;
+    height: 100%;
+    text-align: center;
+    padding: 23px 5px;
+    font-size: 1.6em;
+    color: white;
+    background-color:#0092c4;
+    float: left;
+}
+
+section .section1 .esp1 .horario .partido{
+    width: 40.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    margin-left: 6px;
+}
+
+section .section1 .esp1 .horario .partido3, section .section1 .esp1 .horario .cuatro{
+    display: none;
+}
+
+section .section1 .esp1 .horario .partido .clubes{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    font-size: .6em;
+}
+
+section .section1 .esp1 .horario .partido .clubes img{
+    width: 40%;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+section .section1 .esp1 .horario .partido .fecha{
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: .7em;
+    padding: 10px 2px;
+    background-color: white;
+}
+
+section .section1 .esp1 .horario .fDer{
+    width: .8em;
+    height: 100%;
+    margin-left: 6px;
+    text-align: center;
+    padding: 23px 7px;
+    font-size: 1.6em;
+    color: white;
+    background-color: #0092c4;
+    float: left;
+}
+
+section .section1 .esp2{
+    width: 8%;
+    float: left;
+    height: 100%;
+    
+}
+
+section .section1 .esp2 div{
+    height: 100%;
+    width: 1em;
+    margin-left: 5px;
+    background-color: white;
+    float: left;
+}
+
+section .section2{
+    width: 100%;
+    height: auto;
+    margin-top: 52px;
+}
+
+section .section2 .carrusel{
+    width: 100%;
+    height: auto;
+}
+
+section .section2 .carrusel img{
+    width: 100%;
+    height: auto;
+}
+
+section .section3{
+    width: 100%;
+    height: auto;
+    padding: 45px 10px 6px 10px;
+}
+
+section .section3 .noticias{
+    display: none;
+}
+
+section .section3 .cab{
+    width: 100%;
+    height: 6.5vh;
+    font-size: 1.2em;
+    padding: 8px 4px;
+    background-color: #f7f7f7;
+}
+
+section .section3 .img{
+    width: 100%;
+    height: auto;
+}
+
+section .section3 .img img{
+    width: 100%;
+    height: auto;
+}
+
+section .section3 .desc{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+
+section .section3 .desc label{
+    font-size: .75em;
+    color: #18a2ff;
+}
+
+section .section3 .desc p{
+    font-size: 1em;
+}
+
+section .section4{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+    background-color: #f7f7f7;
+}
+
+section .section4 .noticias{
+    width: 100%;
+    height: 16.7vh;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color:white;
+    box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+}
+
+section .section4 .noticias6{
+    display: none;
+}
+
+section .section4 .noticias .imgInfo{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+section .section4 .noticias .imgInfo img{
+    width: 100%;
+    height: 100%;
+}
+
+section .section4 .noticias .infoN{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+section .section4 .noticias .infoN .p1{
+    font-size: .8em;
+    color: #18a2ff;
+    margin-left: 12px;
+}
+
+section .section4 .noticias .infoN .p2{
+    padding: 0 1px;
+    margin-left: 12px;
+    font-size: 1em;
+}
+
+section .section5{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 10px 10px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+section .section5 .cab2{
+    width: 100%;
+    height: 6.5vh;
+    padding: 11px;
+    background-color:  #f7f7f7;
+}
+
+section .section5 .minN{
+    width: 19vw;
+    height: auto;
+    float: left;
+    background-color: white;
+    box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+    margin: 5px;
+    overflow: hidden;
+}
+
+section .section5 .minN .logos img{
+    width: 100%;
+    height: auto;
+}
+
+section .section5 .minN .infoN{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 3px;
+    font-size: .8em;
+}
+
+section .section5 .minN .infoN label{
+    color: #18a2ff;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    padding: 20px 10px 20px 10px;
+    background-color: #f7f7f7;
+    color:  #b1b0bb;
+}
+
+footer .redes{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+footer .redes i{
+    font-size: 1.5em;
+    color: #d4d4d4;
+    margin: 0 10px;
+}
+
+footer .pie{
+    width: 100%;
+    text-align: center;
+}
+
+/* Termina movil */
+
+/* Empieza tablet */
+
+@media screen and (min-width: 481px){
+
+    header .ingreso .ingresar .dos {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 8px 4px;
+        text-align: right;
+    }
+
+    header .ingreso .ingresar .dos .ingresar1{
+        width: 50%;
+        height: 100%;
+        padding: 5px 5px;
+        border-radius: 8%;
+        color: black;
+        font-size: .9em;
+        float: right;
+        display: block;
+    }
+
+    header .ingreso .ingresar .dos .ingresar2{
+        width: 7em;
+        height: 100%;
+    }
+
+    header .menu{
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        background-color: white;
+    }
+
+    header .menu .logo{
+        width: 50%;
+        float: left;
+        height: 100%;
+        padding: 15px 13px 5px 13px;
+    }
+
+    header .menu .logo img{
+        width: 5em;
+    }
+
+    header .menu .ham{
+        width: 50%;
+        float: left;
+        height: 100%;
+        text-align: center;
+        padding: 13px 13px 13px 13px;
+        font-size: 1.8em;
+    }
+    
+    header .menu .ham span{
+        position: relative;
+    }
+
+    header .ligas .liga{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 10px 10px;
+        float: left;
+    }
+
+    header .ligas .liga h3{
+        display: none;
+    }
+    
+    header .ligas .liga ul{
+        display: inline;
+    }
+
+    header .ligas .liga ul li{
+        display: inline;
+        font-size: .8em;
+        color: #b1b0bb;
+    }
+
+    header .ligas .flecha{
+        display: none;
+    }
+
+    section{
+        width: 100%;
+        height: auto;
+        padding: 50px 10px 20px 10px;
+        background-color: #f7f7f7;
+    }
+
+    section .section1{
+        width: 100%;
+        height: 17vh;
+        padding: 10px 10px 10px 10px;
+        background-color: #f2f2f2;
+        overflow: hidden;
+    }
+
+    section .section1 .esp1 .horario .partido3{
+        width: 27.8%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        display: block;
+        margin-left: 6px;
+    }
+
+    section .section1 .esp1 .horario .cuatro{
+        display: none;
+    }
+    
+    section .section1 .esp1 .horario .partido3 .clubes{
+        width: 60%;
+        height: 100%;
+        float: left;
+        background-color: white;
+        font-size: .6em;
+    }
+    
+    section .section1 .esp1 .horario .partido3 .clubes img{
+        width: 40%;
+        padding: 5px 5px;
+        display: inline-block;
+    }
+    
+    section .section1 .esp1 .horario .partido3 .fecha{
+        width: 40%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        font-size: .7em;
+        padding: 10px 2px;
+        background-color: white;
+    }
+
+    section .section1 .esp1 .horario .partido{
+        width: 27.8%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        margin-left: 6px;
+    }
+
+    section .section1 .esp1 .partidos{
+        width: 15%;
+        height: 28%;
+        float: left;
+        background-color: white;
+        margin: 25px 0;
+    }
+
+    section .section1 .esp1 .horario{
+        width: 85%;
+        height: 100%;
+        float: left;
+        background-color: #f2f2f2;
+    }
+
+    section .section1 .esp2{
+        width: 2%;
+        float: left;
+        height: 100%;
+    }
+    
+    section .section1 .esp2 div{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        justify-content: right;
+    }
+
+    section .section1 .esp1{
+        width: 95%;
+        height: 100%;
+        float: left;
+    }
+
+    section .section3{
+        width: 85%;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    section .section4 .noticias{
+        width: 50%;
+        height: 40.7vh;
+        float: left;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color:white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        overflow: hidden;
+    }
+
+    section .section4 .noticias6{
+        width: 50%;
+        height: 40.7vh;
+        float: left;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: block;
+        background-color:white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        overflow: hidden;
+    }
+
+    section .section4 .noticias6 .imgInfo{
+        width: 100%;
+        height: 70%;
+    }
+    
+    section .section4 .noticias6 .imgInfo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    section .section4 .noticias .imgInfo{
+        width: 100%;
+        height: 70%;
+    }
+    
+    section .section4 .noticias .imgInfo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    section .section4 .noticias6 .infoN{
+        width: 100%;
+        height: 100%;
+        font-size: .8em;
+        background-color: white;
+        float: left;
+    }
+
+    section .section4 .noticias .infoN{
+        width: 100%;
+        height: 100%;
+        font-size: .8em;
+        background-color: white;
+        float: left;
+    }
+
+
+    section .section4 .noticias6 .infoN .p1{
+        font-size: .8em;
+        color: #18a2ff;
+        margin-left: 12px;
+    }
+
+    section .section4 .noticias .infoN .p1{
+        font-size: .8em;
+        color: #18a2ff;
+        margin-left: 12px;
+    }
+    
+    section .section4 .noticias6 .infoN .p2{
+        padding: 0 1px;
+        margin-left: 12px;
+        font-size: 1em;
+    }
+
+    section .section5 .m{
+        display: none;
+    }
+
+    section .section5 .minN{
+        width: 30.5%;
+        height: auto;
+        float: left;
+        background-color: white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        margin: 5px;
+        overflow: hidden;
+    }
+}
+
+/* Termina tablet */
+
+/* Empieza Large */
+
+@media screen and (min-width: 721px){
+
+    header .menu .ham i{
+        display: block;
+    }
+
+    header .menu .ham span{
+        display: none;
+    }
+
+    header .menu .ham i{
+        width: 100%;
+        height: 80%;
+        font-size: .8em;
+        text-align: right;
+        background-color:  #f7f7f7;
+    }
+
+    header .menu{
+        width: 100%;
+        height: 10vh;
+        text-align: left;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    header .menu .logo{
+        width: 95%;
+        float: left;
+        height: 100%;
+        padding: 8px 13px 5px 13px;
+        overflow: hidden;
+    }
+
+    header .menu .logo img{
+        position: relative;
+        bottom: 5px;
+    }
+
+    header .menu .ham{
+        width: 5%;
+        float: left;
+        height: 100%;
+        text-align: center;
+        padding: 10px 13px 13px 13px;
+        font-size: 1.8em;
+    }
+
+    header .menu .logo ul{
+        width: 80%;
+       display: inline-block;
+       overflow: hidden;
+    }
+
+    header .menu .logo ul li{
+        width: auto; 
+        margin: 0 5px;
+        padding-top: 5px;
+        font-size: .8em;
+        float: left;
+        color: #b1b0bb;
+        overflow: hidden;
+    }
+
+    section .section1 .esp1 .horario .cuatro{
+        display: block;
+    }
+
+    section .section1 .esp1 .horario .partido, section .section1 .esp1 .horario .partido3{
+        width: 18%;
+        height: 100%;
+        background-color: white;
+        float: left;
+        margin-left: 6px;
+    }
+
+    section .section3{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    section .section3 div{
+        width: 50%;
+        float: left;
+    }
+
+    section .section3 .noticias{
+        width: 20%;
+        height: 40.7vh;
+        float: left;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color:white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        overflow: hidden;
+    }
+
+    section .section3 .noticias6{
+        width: 20%;
+        height: 40.7vh;
+        float: left;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: block;
+        background-color:white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        overflow: hidden;
+    }
+
+
+    section .section3 .img{
+        width: 100%;
+        height: auto;
+    }
+    
+    section .section3 .img img{
+        width: 100%;
+        height: auto;
+    }
+    
+    section .section3 .desc{
+        width: 100%;
+        height: auto;
+        padding: 5px 10px;
+        background-color: white;
+        float: left;
+    
+    }
+
+    section .section3 .noticias .infoN .p1{
+        font-size: .8em;
+        color: #18a2ff;
+        margin-left: 12px;
+    }
+    
+    section .section3 .noticias .infoN .p2{
+        padding: 0 1px;
+        margin-left: 12px;
+        font-size: 1em;
+    }
+
+
+
+
+
+    section .section5 .m{
+        display: none;
+    }
+
+    section .section5 .minN{
+        width: 14.5%;
+        height: auto;
+        float: left;
+        background-color: white;
+        box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .5);
+        margin: 5px;
+        overflow: hidden;
+    }
+}
+
+/* Termina Large */
